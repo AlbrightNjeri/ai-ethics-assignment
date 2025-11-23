@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "total_records": 6150,
+    "african_american": 3696,
+    "caucasian": 2454
+  },
+  "metrics": {
+    "African-American": {
+      "n": 3696,
+      "tp": 1369,
+      "fp": 805,
+      "fn": 532,
+      "tn": 990,
+      "fpr": 0.44846796657381616,
+      "fnr": 0.27985270910047344,
+      "tpr": 0.7201472908995266,
+      "accuracy": 0.6382575757575758,
+      "selection_rate": 0.5882034632034632
+    },
+    "Caucasian": {
+      "n": 2454,
+      "tp": 505,
+      "fp": 349,
+      "fn": 461,
+      "tn": 1139,
+      "fpr": 0.23454301075268819,
+      "fnr": 0.4772256728778468,
+      "tpr": 0.5227743271221532,
+      "accuracy": 0.6699266503667481,
+      "selection_rate": 0.3480032599837001
+    }
+  },
+  "disparate_impact": {
+    "fpr_ratio": 1.9120926483147231,
+    "interpretation": "African-American defendants flagged as high-risk at higher rate"
+  }
+}
